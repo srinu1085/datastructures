@@ -1,4 +1,6 @@
- if(head==NULL || head->next==NULL){
+//linked list cycle 
+
+if(head==NULL || head->next==NULL){
             return false;
         }
         ListNode *low=head;
